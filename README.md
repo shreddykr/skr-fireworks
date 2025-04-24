@@ -17,6 +17,8 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 🧰 Built-in notifications using ox_lib (with graceful fallback to console logs).
 
+⚡ 0.00ms 
+
 🕹 Fully configurable fireworks: from slow booms to rapid bursts to multi-color mega displays.
 
 ---------------------------------------------------------------------------------------------------------------------------------
