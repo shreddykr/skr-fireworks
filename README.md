@@ -21,11 +21,6 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-📦 Firework Types Included
-
-
-
-
 ⭐ Starburst: Bright and colorful, classic firework vibes.
 
 🌈 Multi-Color Explosion: Bursts of RGB chaos in the sky.
@@ -36,7 +31,7 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 🎆 Mega Display: The ultimate finale showstopper.
 
-Each firework has its own prop, FX setup, shoot count, delays, and particle timing—fully editable via config.lua.
+🕹 Each firework has its own prop, FX setup, shoot count, delays, and particle timing—fully editable via config.lua.
 
 --------------------------------------------------------------------------------------------------------------------
 
