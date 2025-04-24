@@ -2,8 +2,6 @@
 Ever wished your server had that extra spark? Look no further! skr-fireworks is a fully customizable and visually explosive fireworks script for FiveM that allows players to place, light, and enjoy stunning fireworks using intuitive ox_target interactions and sleek animations. Whether you're celebrating a national holiday or just spicing up a party in the streets of Los Santos, this script has you covered with a blast (literally).
 
 
-💥 Features
-
 🔥 Place fireworks anywhere using custom prop placement logic.
 
 🧨 Light up the night with fully synced particle FX from Rockstar’s own effects library.
@@ -23,6 +21,7 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 
 📦 Firework Types Included
+
 
 ⭐ Starburst: Bright and colorful, classic firework vibes.
 
