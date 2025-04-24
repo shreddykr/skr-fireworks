@@ -45,72 +45,71 @@ Config.NeedLighter = true
 Config.LighterItem = 'lighter'
 
 Config.Fireworks = {
-    -- Firework 1: Basic Starburst
     [1] = {
-        item = 'firework_1',
-        itemRemovable = true,
-        command = 'fire_1',
-        shoots = 50,
+        item = 'firework_1', -- name or nil
+        itemRemovable = true, -- if it is on the item, is it to be removed after use 
+        command = 'fire_1', -- name of command or nil
+        shoots = 50, -- count of shots
         prop = "ind_prop_firework_03",
-        timeToStart = 5000,
+        timeToStart = 5500, -- +/- 5000 == 5 seconds
         timeBetweenShoots = 1250,
         particles = {
             {name = "scr_indep_fireworks", effect = "scr_indep_firework_starburst", scale = 2.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 120},
+            {name = "proj_indep_firework", effect = "scr_indep_firework_grd_burst", scale = 2.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 300},
+            {name = "proj_indep_firework", effect = "scr_indep_firework_air_burst", scale = 2.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 600},
         },
     },
-    -- Firework 2: Ground Burst
     [2] = {
         item = 'firework_2',
         itemRemovable = true,
         command = 'fire_2',
-        shoots = 30,
-        prop = "ind_prop_firework_02",
-        timeToStart = 3000,
-        timeBetweenShoots = 1000,
+        shoots = 80,
+        prop = "ind_prop_firework_03",
+        timeToStart = 5500,
+        timeBetweenShoots = 250,
         particles = {
-            {name = "proj_indep_firework", effect = "scr_indep_firework_grd_burst", scale = 3.0, plusHeight = 10.0, randomizeXY = false, timeToNextShoot = 200},
+            {name = "scr_indep_fireworks", effect = "scr_indep_firework_trailburst", scale = 2.0, plusHeight = 10.0, randomizeXY = true, timeToNextShoot = 125},
+            {name = "proj_indep_firework_v2", effect = "scr_firework_indep_burst_rwb", scale = 1.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 125},
+            {name = "proj_xmas_firework", effect = "scr_firework_xmas_ring_burst_rgw", scale = 1.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 125},
         },
     },
-    -- Firework 3: Multi-Color Explosion
     [3] = {
         item = 'firework_3',
         itemRemovable = true,
         command = 'fire_3',
-        shoots = 70,
-        prop = "ind_prop_firework_04",
-        timeToStart = 7000,
-        timeBetweenShoots = 1500,
+        shoots = 80,
+        prop = "ind_prop_firework_03",
+        timeToStart = 5500,
+        timeBetweenShoots = 250,
         particles = {
-            {name = "scr_xmas_fireworks", effect = "scr_firework_xmas_ring_burst_rgw", scale = 4.0, plusHeight = 60.0, randomizeXY = true, timeToNextShoot = 150},
-            {name = "scr_xmas_fireworks", effect = "scr_firework_xmas_spiral_burst_rgw", scale = 3.5, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 300},
+            {name = "proj_indep_firework", effect = "scr_indep_firework_air_burst", scale = 1.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 125},
+            {name = "proj_indep_firework_v2", effect = "scr_firework_indep_spiral_burst_rwb", scale = 1.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 125},
+            {name = "proj_indep_firework_v2", effect = "scr_firework_indep_repeat_burst_rwb", scale = 1.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 125},
+            {name = "scr_indep_fireworks", effect = "scr_indep_firework_starburst", scale = 1.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 125},
         },
     },
-    -- Firework 4: Rapid Shooter
     [4] = {
         item = 'firework_4',
         itemRemovable = true,
         command = 'fire_4',
-        shoots = 100,
-        prop = "ind_prop_firework_01",
-        timeToStart = 2000,
-        timeBetweenShoots = 500,
+        shoots = 50,
+        prop = "ind_prop_firework_03",
+        timeToStart = 5000,
+        timeBetweenShoots = 550,
         particles = {
-            {name = "scr_indep_fireworks", effect = "scr_indep_firework_shotburst", scale = 1.5, plusHeight = 30.0, randomizeXY = true, timeToNextShoot = 100},
+            {name = "scr_indep_fireworks", effect = "scr_indep_firework_trailburst", scale = 4.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 10},
         },
     },
-    -- Firework 5: Mega Display
     [5] = {
-        item = 'firework_5',
+        item = 'fontain_4',
         itemRemovable = true,
-        command = 'fire_5',
-        shoots = 150,
-        prop = "ind_prop_firework_05",
-        timeToStart = 10000,
-        timeBetweenShoots = 2500,
+        command = 'fontain_4',
+        shoots = 80,
+        prop = "ind_prop_firework_04",
+        timeToStart = 3500,
+        timeBetweenShoots = 700,
         particles = {
-            {name = "scr_indep_fireworks", effect = "scr_indep_firework_starburst", scale = 5.0, plusHeight = 70.0, randomizeXY = true, timeToNextShoot = 200},
-            {name = "scr_indep_fireworks", effect = "scr_indep_firework_shotburst", scale = 4.0, plusHeight = 50.0, randomizeXY = true, timeToNextShoot = 150},
-            {name = "scr_indep_fireworks", effect = "scr_indep_firework_trailburst", scale = 6.0, plusHeight = 80.0, randomizeXY = true, timeToNextShoot = 300},
+            {name = "scr_indep_fireworks", effect = "scr_indep_firework_fountain", scale = 0.25, plusHeight = 0.25, randomizeXY = false, timeToNextShoot = 500},
         },
     },
 }
