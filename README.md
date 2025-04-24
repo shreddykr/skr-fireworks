@@ -1,5 +1,5 @@
 🎆 skr-fireworks – Bring the Night Sky to Life in FiveM 🎆
-Ever wished your server had that extra spark? Look no further! skr-fireworks is a fully customizable and visually explosive fireworks script for FiveM that allows players to place, light, and enjoy stunning fireworks using intuitive ox_target interactions and sleek animations. Whether you're celebrating a national holiday or just spicing up a party in the streets of Los Santos, this script has you covered with a blast (literally).
+Ever wished your server had that extra spark? Look no further! skr-fireworks is a fully customizable and visually explosive fireworks script for FiveM that allows players to place, light, and enjoy stunning fireworks using intuitive ox_target & ox_inventory interactions and sleek animations. Whether you're celebrating a national holiday or just spicing up a party in the streets of Los Santos, this script has you covered with a blast (literally).
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
