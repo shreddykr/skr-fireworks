@@ -45,3 +45,8 @@ ox_lib
 ox_target
 
 ox_inventory
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+🎇 Why Use This Script?
+Bring the sky to life with skr-fireworks, a feature-rich firework placement and display system designed to add cinematic flair and immersive celebration moments to your FiveM server! Whether it’s a national holiday, a party in the park, or just because your players felt like lighting up the night—this script delivers a dynamic, visually stunning, and user-friendly fireworks experience.
