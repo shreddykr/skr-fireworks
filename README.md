@@ -33,6 +33,20 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 🕹 Each firework has its own prop, FX setup, shoot count, delays, and particle timing—fully editable via config.lua.
 
+----------------------------------------------------------------------------------------------------------------------
+
+📦 Install
+
+Download the resource folder from the official release.
+
+Place the folder in your resources directory on your FiveM server.
+
+Open your server configuration file and add the resource name to your ensure list.
+
+Ensure that any dependencies mentioned in the documentation are also started before this script.
+
+Restart your server to apply the changes.
+
 --------------------------------------------------------------------------------------------------------------------
 
 🔧 Dependencies
