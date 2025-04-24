@@ -21,19 +21,6 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 🕹 Fully configurable fireworks: from slow booms to rapid bursts to multi-color mega displays.
 
----------------------------------------------------------------------------------------------------------------------------------
-
-⭐ Starburst: Bright and colorful, classic firework vibes.
-
-🌈 Multi-Color Explosion: Bursts of RGB chaos in the sky.
-
-💣 Rapid Shooter: Boom. Boom. Boom. Fast and frequent.
-
-🎇 Ground Burst: Explosive effects that hug the earth.
-
-🎆 Mega Display: The ultimate finale showstopper.
-
-🕹 Each firework has its own prop, FX setup, shoot count, delays, and particle timing—fully editable via config.lua.
 
 ----------------------------------------------------------------------------------------------------------------------
 
