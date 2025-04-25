@@ -15,7 +15,7 @@ Ever wished your server had that extra spark? Look no further! skr-fireworks is 
 
 💾 Supports ox_target for lighting fireworks interactively.
 
-🧰 Built-in notifications using ox_lib (with graceful fallback to console logs).
+🧰 Built-in notifications using QB-Core(update the qb core function notify to ox lib)
 
 ⚡ 0.00ms 
 
